@@ -3,7 +3,7 @@ import streamlit as st
 from utils import generate_xiaohongshu
 
 
-st.header("爆款小红书AI写作助手 ✏️")
+st.header("爆款小红书AI写作助手 new ✏️")
 with st.sidebar:
     openai_api_key = st.text_input("请输入DeepSeek API密钥：", type="password")
     st.markdown("[获取DeepSeek API密钥](https://platform.deepseek.com/usage)")
